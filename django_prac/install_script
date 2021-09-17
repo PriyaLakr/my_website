@@ -1,0 +1,39 @@
+# installing django version 3.2.7
+pip install Django==3.2.7
+
+# add to PATH if not added by default
+export PATH=$PATH:/PATH/TO/BE/ADDED
+echo $PATH
+
+
+# it is better to install packages in virtual env than installing sytemwide
+# making virtual env in python
+# https://docs.python.org/3/tutorial/venv.html
+
+python3 -m venv tutorial_env
+
+# to activate env 
+source tutorial_env/bin/activate # On Unix or MacOS
+
+# after activating env install Django
+$ python3 -m pip install Django
+$ django-admin startproject mysite
+
+# https://docs.djangoproject.com/en/3.2/intro/tutorial01/
+
+
+
+
+
+
+
+
+
+# some commands: 
+
+$ pip list
+
+$ python -m pip install --upgrade software_or_package_name
+
+# to deactivate the env
+$ deactivate 

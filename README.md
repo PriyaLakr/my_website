@@ -1,1 +1,2 @@
-hi
+Django basic!
+

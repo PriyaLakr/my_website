@@ -1,0 +1,18 @@
+
+# installing django 
+# STEP1 Create a virtual enviornment in python
+
+python3 -m venv tutorial_env
+
+source tutorial_env/bin/activate
+
+# STEP2 Installing your packages of interest. Here Django
+
+python3 -m pip install Django
+
+# STEP3 Working 
+# Start your project
+
+django-admin startproject myweb
+
+
